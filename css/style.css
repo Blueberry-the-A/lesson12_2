@@ -1,0 +1,18 @@
+@import "./base.css";
+@import "./container.css";
+
+
+.icon{
+    display: block;
+    margin:50px auto;
+    animation:fill-heart 1s linear 0s infinite alternate none running;
+}
+
+@keyframes fill-heart {
+    0% {
+        fill:black;
+    }
+    100% {
+        fill:red;
+    }
+}
